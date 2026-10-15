@@ -28,7 +28,7 @@ interface LoginFormData {
 }
 
 // Backend integration point: Replace with Supabase auth.signInWithPassword()
-const MOCK_CREDENTIALS = [
+const Ferdinata = [
      { role: 'Admin', email: 'Admin0@gmail.com', password: 'admin123' },
    { role: 'Owner', email: 'Owner@gmail.com', password: 'owner123' },
 ];

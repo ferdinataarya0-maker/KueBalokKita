@@ -29,8 +29,8 @@ interface LoginFormData {
 
 // Backend integration point: Replace with Supabase auth.signInWithPassword()
 const MOCK_CREDENTIALS = [
-     { role: 'Admin', email: 'FerdiN0@gmail.com', password: 'admin123' },
-   { role: 'Owner', email: 'ferdiN0@gmail.com', password: 'owner123' },
+     { role: 'Admin', email: 'Admin0@gmail.com', password: 'admin123' },
+   { role: 'Owner', email: 'Owner@gmail.com', password: 'owner123' },
 ];
 
 export default function LoginPageContent() {
@@ -214,7 +214,7 @@ export default function LoginPageContent() {
                 id="email"
                 type="email"
                 autoComplete="email"
-                placeholder="admin@linera.id"
+                placeholder="Admin@gmail.com"
                 className="input-warm w-full px-4 py-3 text-sm"
                 style={{
                   borderColor: errors.email ? 'var(--error)' : undefined,

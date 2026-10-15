@@ -1,0 +1,18 @@
+# dependencies
+node_modules/
+
+# next.js
+.next/
+out/
+
+# secrets - JANGAN di-commit
+.env
+.env.*
+!.env.example
+
+# lain-lain
+.DS_Store
+*.log
+.vercel
+*.tsbuildinfo
+next-env.d.ts

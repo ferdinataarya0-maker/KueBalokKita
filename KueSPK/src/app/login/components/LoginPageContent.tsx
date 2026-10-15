@@ -28,7 +28,7 @@ interface LoginFormData {
 }
 
 // Backend integration point: Replace with Supabase auth.signInWithPassword()
-const Ferdinata = [
+const MOCK_CREDENTIALS = [
      { role: 'Admin', email: 'Admin0@gmail.com', password: 'admin123' },
    { role: 'Owner', email: 'Owner@gmail.com', password: 'owner123' },
 ];
@@ -382,6 +382,11 @@ export default function LoginPageContent() {
             <Link href="/" className="font-medium hover:underline" style={{ color: 'var(--primary)' }}>
               Halaman Utama
             </Link>
+          </p>
+          <p>
+            <p className="text-[11px] text-center mt-2 opacity-40 hover:opacity-100 transition-opacity" style={{ color: 'var(--muted-foreground)' }}>
+                by Muhammad Arya Ferdynata
+</p>
           </p>
         </div>
       </div>

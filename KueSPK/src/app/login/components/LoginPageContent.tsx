@@ -29,8 +29,8 @@ interface LoginFormData {
 
 // Backend integration point: Replace with Supabase auth.signInWithPassword()
 const MOCK_CREDENTIALS = [
-     { role: 'Admin', email: 'ferdinataarya0@gmail.com', password: 'admin123' },
-   { role: 'Owner', email: 'ferdinataaryaarya0@gmail.com', password: 'owner123' },
+     { role: 'Admin', email: 'FerdiN0@gmail.com', password: 'admin123' },
+   { role: 'Owner', email: 'ferdiN0@gmail.com', password: 'owner123' },
 ];
 
 export default function LoginPageContent() {

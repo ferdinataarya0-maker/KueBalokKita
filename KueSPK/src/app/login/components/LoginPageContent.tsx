@@ -383,11 +383,6 @@ export default function LoginPageContent() {
               Halaman Utama
             </Link>
           </p>
-          <p>
-            <p className="text-[11px] text-center mt-2 opacity-40 hover:opacity-100 transition-opacity" style={{ color: 'var(--muted-foreground)' }}>
-                by Muhammad Arya Ferdynata
-</p>
-          </p>
         </div>
       </div>
     </div>

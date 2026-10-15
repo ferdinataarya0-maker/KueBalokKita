@@ -332,9 +332,8 @@ export default function AdminLayout({ children, title, breadcrumbs }: AdminLayou
           </div>
         </main>
         <p><p className="text-[11px] text-center py-2 opacity-40 hover:opacity-100 transition-opacity" style={{ color: 'var(--muted-foreground)' }}>
-  Developed by Muhammad Arya Ferdynata
-</p>
-</p>
+     by Muhammad Arya Ferdynata
+</p></p>
       </div>
     </div>
   );
